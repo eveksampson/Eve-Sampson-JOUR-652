@@ -1,9 +1,13 @@
+/* styles for my resume */
+
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color:#444;
   font-weight: 400;
 }
+
+/* Name banner on top of page */
 
 h1 {
   font-size: 3em;
@@ -18,6 +22,8 @@ strong {
   font-size: 1.5em;
 }
 
+/* Experience, education, and skills subheadings */
+
 h2{
   font-size: 1.5em;
   text-transform: uppercase;
@@ -25,18 +31,31 @@ h2{
   color: #fff;
 }
 
+/* job titles under Experience subheading */
+
 h3{
   font-weight: 600;
   font-size: 1.5em;
 }
+
+/* organizations under Experience subheading */
 
 h4{
   font-weight: 400;
   font-size: 1.5em;
 }
 
+/* dates under Experience subheading */
+
 h5 {
   font-weight: 400;
   font-size: 1em;
-  font-style: italic;  
+  font-style: italic;
+}
+
+/* all unordered lists */
+
+ul{
+  font-size: 1em;
+
 }

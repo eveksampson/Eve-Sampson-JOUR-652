@@ -8,6 +8,11 @@ BODY {
 }
 
 /* Name banner on top of page */
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 #name {
   font-size: 3em;

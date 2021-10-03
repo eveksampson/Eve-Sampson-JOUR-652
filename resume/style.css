@@ -48,24 +48,28 @@ strong {
 
 /* job titles under Experience subheading */
 
-h3{
+#jobtitle{
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /* organizations under Experience subheading */
 
-h4{
+#organization{
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* dates under Experience subheading */
 
-h5 {
+#date{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* all unordered lists */

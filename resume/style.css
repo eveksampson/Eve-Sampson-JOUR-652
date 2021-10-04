@@ -36,7 +36,7 @@ BODY {
 
 /* Experience, education, and skills subheadings */
 
-#sectionheader{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
@@ -51,21 +51,21 @@ BODY {
 
 /* job titles under Experience subheading */
 
-#jobtitle{
+.jobtitle{
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /* organizations under Experience subheading */
 
-#organization{
+.organization{
   font-weight: 400;
   font-size: 1.25em;
 }
 
 /* dates under Experience subheading */
 
-#date{
+.date{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
@@ -102,4 +102,11 @@ ul{
 
 #do{
   margin: 5px 0px 0px 0px;
+}
+
+.top{
+  width:60%
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
 }

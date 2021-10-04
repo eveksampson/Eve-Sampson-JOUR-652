@@ -25,10 +25,13 @@ BODY {
   margin: 0 auto;
 }
 
-strong {
+#title{
   color: #33485e;
   text-transform: uppercase;
+  font-weight: 600;
   font-size: 1.5em;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
 }
 
 /* Experience, education, and skills subheadings */
@@ -87,5 +90,16 @@ ul{
   margin: 0px;
   padding: 0px;
   text-align: center;
+}
+
+.menu li {
   display: inline;
+}
+
+#degrees{
+  margin: 5px 0px 0px 0px;
+}
+
+#do{
+  margin: 5px 0px 0px 0px;
 }

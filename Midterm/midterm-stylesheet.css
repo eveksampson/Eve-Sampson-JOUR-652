@@ -1,5 +1,17 @@
 /* styles for midterm */
 
+#content{
+  width=100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#byline{
+  text-align: left;
+  font-style: italic;
+  font-family: Times, serif;
+}
+
 h1{
   text-align: center;
   font-family: Times, serif;
@@ -16,4 +28,15 @@ p{
   text-align: left;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+}
+
+blockquote{
+  font: 16px/24px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+  border-bottom: 4px solid #ccc;
 }

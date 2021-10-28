@@ -3,3 +3,19 @@
   max-width: 900px;
   margin: 0 auto;
 }
+
+.img{
+  object-fit: cover;
+}
+
+h1{
+  font-family: 'Source Sans Pro'
+}
+
+h2{
+  font-family: 'Source Sans Pro'
+}
+
+h3{
+  font-family: 'Source Sans Pro'
+}

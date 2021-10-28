@@ -48,7 +48,10 @@
           <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Experience and Education</a>
+          <a class="nav-link active" aria-current="page" href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Experience">Experience</a>
         </li>
       </ul>
 
@@ -58,16 +61,21 @@
 <!-- Navbar end-->
 
 
-<!--Profile and contact information in hero format **still need onclick for email** -->
+
 <a id="profile"></a>
 <div class="px-4 py-5 my-5 text-center">
-  <h1>Profile</h1>
+<!--Banner-->
+  <div class="feature-icon bg-dark bg-gradient">
+    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+  </div>
+<!--Banner end-->
+  <h1 class="pb-2 border-bottom">Profile</h1>
   <div class="col-lg-6 mx-auto">
     <p class="lead mb-4">I am a Masters of Journalism student studying multimedia journalism. I am a former Army Engineer hoping to use my experience and expertise in military and conflict-centric reporting. I have strong writing and storytelling skills and experience in foreign conflict zones. </p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Email</button>
-      <button onclick="https://twitter.com/eveksampson?lang=en"type="button" class="btn btn-outline-secondary btn-lg px-4">Twitter</button>
-      <button onclick="https://www.linkedin.com/in/eve-sampson/" type="button" class="btn btn-outline-secondary btn-lg px-4">LinkedIn</button>
+      <a href="mailto: eveksampson@gmail.com" type="button" class="btn btn-link btn-outline-secondary btn-lg px-4">Email</a>
+      <a href="https://twitter.com/eveksampson?lang=en" type="button" class="btn btn-link btn-outline-secondary btn-lg px-4">Twitter</a>
+      <a href="https://www.linkedin.com/in/eve-sampson/" type="button" class="btn btn-link btn-outline-secondary btn-lg px-4">LinkedIn</a>
     </div>
   </div>
 </div>
@@ -76,63 +84,96 @@
 
 
 <!-- Experience  start-->
-
+<a id="Work"></a>
 <div class="container">
   <div class="text-center">
-  <a id="Work"></a>
-  <h1>Published Work</h1>
+<!--Banner-->
+  <div class="feature-icon bg-dark bg-gradient">
+    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
   </div>
-<div class="row">
-<div class="col-lg-6 mx-auto">
-  <h2>UMD students bring global climate action to McKeldin</h2>
-    <p>Aadhiti Vallatharasu shares her experience with pollution. Photo by Joel Lev-Tov.
-    <a href="https://umdsbs.wordpress.com/2021/09/25/umd-students-bring-global-climate-action-to-mckeldin/">Read here</a>
-</p>
-    <img src="climate_1.jpeg" width="100%" max-width="500px">
-    <!--Aadhiti Vallatharasu shares her experience with pollution. Photo by Joel Lev-Tov.-->
+<!-- Banner end-->
+  <h1 class="pb-2 border-bottom">Published Work</h1>
+  </div>
 
-</div>
-<div class="col-lg-6 mx-auto">
-  <h2>UMD alum in viral picture from Afghanistan withdrawal</h2>
-  <!--Featured image: Sgt. Matthew Jaffe cradles a baby in the chaotic final days of the American withdrawal from Afghanistan. Photo courtesy U.S. Marine Corps facebook page.-->
-    <p>Matthew Jaffe cradles a baby during the Afghanistan withdrawal. Source: U.S. Marine Corps.
-    <a href="https://umdsbs.wordpress.com/2021/10/16/umd-alum-in-viral-picture-from-afghanistan-withdrawal/">Read here</a>
-    </p>
-    <img src="alum_1.jpeg" width="100%" max-width="500px">
+  <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">UMD students bring global climate action to McKeldin</h3>
+            <a href="https://umdsbs.wordpress.com/2021/09/25/umd-students-bring-global-climate-action-to-mckeldin/" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+              <img class=img src="climate_1.jpeg" alt="Student speaks to crowd at climate protest"  width="200" height="250" role="img">
+              <!--image credit: photo from link above, shot by Joel Lev-Tov-->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">UMD alum in viral picture from Afghanistan withdrawal</h3>
+            <a href="https://umdsbs.wordpress.com/2021/10/16/umd-alum-in-viral-picture-from-afghanistan-withdrawal/" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class=img src="alum_1.jpeg" alt="Marine cradles a baby at a military base in Afghanistan" width="200" height="250" role="img" focusable="false">
+            <!--image credit: Photographed by Sgt. Isaiah Campbell, published on USMC Facebook page -->
 
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 <!-- Column end-->
 
 <!--Skills-->
+<a id="Skills"></a>
 <div class="container">
   <div class="text-center">
   <a id="skills"></a>
-  <h1>Skills</h1>
+
+<!--Banner-->
+  <div class="feature-icon bg-dark bg-gradient">
+    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+  </div>
+<!--Banner end-->
+
+  <h1 class="pb-2 border-bottom">Skills</h1>
 
   <div class="row">
 <div class="col-6 col-sm-3">
   <i class="bi bi-pencil"></i>
+
+  <div class="feature-icon bg-dark bg-gradient">
+    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+  </div>
   <h3>Journalism</h3>
     <p>I can comprehensively write and edit a story. I strongly believe in the necessity of on-the-ground reporting in all situations.</p>
 </div>
 
 <div class="col-6 col-sm-3">
   <i class="bi bi-camera-fill"></i>
+  <div class="feature-icon bg-dark bg-gradient">
+    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+  </div>
   <h3>Manual DSLR</h3>
     <p>I can shoot manual on most DSLR cameras utilizing basic photography principles.</p>
 </div>
 
 <div class="col-6 col-sm-3">
   <i class="bi bi-person-fill"></i>
+  <div class="feature-icon bg-dark bg-gradient">
+    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+  </div>
   <h3>Leadership</h3>
     <p>I integrated the some of the first female combat engineer Soldiers into a platoon of 35 Soldiers in a combat zone. I led hundreds of kilometers of route clearance and patrol missions in a combat zone.</p>
 </div>
 
 <div class="col-6 col-sm-3">
   <i class="bi bi-box-arrow-in-up"></i>
+  <div class="feature-icon bg-dark bg-gradient">
+    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+  </div>
   <h3>Military Fluency</h3>
     <p>I understand and can translate military language to describe operations to non-military people.</p>
 </div>
@@ -141,8 +182,83 @@
 </div>
 </div>
 
+<!--Education-->
 
+<a id="Education"></a>
+<div class="container">
+    <div class="text-center">
 
+      <div class="feature-icon bg-dark bg-gradient">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+      </div>
+
+    <h1 class="pb-2 border-bottom">Education</h1>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+
+        <div class="feature col">
+        <div class="feature-icon bg-dark bg-gradient">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+        </div>
+        <h3>United States Military Academy at West Point</h3>
+        <p>Bachelor of Science in Psychology (2016)</p>
+      </div>
+
+      <div class="feature col">
+        <div class="feature-icon bg-dark bg-gradient">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+        </div>
+        <h2>University of Maryland College Park</h2>
+        <p>Masters in Journalism (expected 2022)</p>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+<!--Experience-->
+
+<a id="Experience"></a>
+  <div class="container">
+      <div class="text-center">
+      <h1 class="pb-2 border-bottom">Experience</h1>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon bg-dark bg-gradient">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+          </div>
+          <h3>Howard Center for Investigative Journalism</h3>
+          <p>Currently a Fellow at the Howard Center for Investigative Journalism working on multifaceted and complex projects.</p>
+          <a href="https://merrill.umd.edu/howard-center-for-investigative-journalism" class="icon-link">
+            Read More
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-dark bg-gradient">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+          </div>
+          <h3>Stories Beneath the Shell</h3>
+          <p>Frequently contribute to University of Maryland student publication, Stories Beneath the Shell covering campus events, students, and alumi.</p>
+          <a href="https://umdsbs.wordpress.com/" class="icon-link">
+            Read More
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-dark bg-gradient">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+          </div>
+          <h3>Army Officer</h3>
+          <p>Served as an Engineer Officer in the U.S. Army deployed to Syria and Kuwait. Resposible for leading explosives detection and clearance operations. Frequently acted as a liason for foriegn troops.</p>
+          <a href="https://www.goarmy.com/careers-and-jobs/career-match/mechanics-engineering/design-develop/12a-engineer-officer.html" class="icon-link">
+            Read More
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
 
 <!--Footer-->
 

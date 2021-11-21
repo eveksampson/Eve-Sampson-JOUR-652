@@ -4,6 +4,27 @@
   margin: 0 auto;
 }
 
+article{
+  display: block;
+  width: 70%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: red;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.basic{
+  text-align: left;
+  font-family: georgia, sans-serif;
+}
+
 .headline{
   font-size: 3em;
   font-weight: 700;
@@ -49,14 +70,13 @@ p{
 }
 
 blockquote{
-  font: 16px/24px normal helvetica, sans-serif;
-  font-style: italic;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 50px;
-  padding-left: 15px;
-  border-left: 4px solid #ccc;
-  border-bottom: 4px solid #ccc;
+  font: 24px serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  padding-left: 20px;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 h2{
@@ -66,7 +86,8 @@ h2{
   color: red;
   text-transform: uppercase;
   font-size: 1.5em;
-  border-bottom: 4px solid;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .logo{
@@ -74,8 +95,91 @@ h2{
   margin: 0 auto;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 3em;
 }
 
 .red{
   color: red;
+}
+
+.small{
+  font-size: 18px;
+  font-style: italic;
+}
+
+.italics{
+  font-style: italic;
+  text-align: left;
+}
+
+.hero-container{
+  position:relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top:65%;
+  width:100%;
+  background-color: red;
+  opacity: .7;
+}
+
+.hero-head{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  font-weight: bolder;
+  color: black;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub{
+  font-family: serif;
+  font-size: 3em;
+}
+
+@media(max-width:700px){
+  p{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .chapterheadline{
+    font-size: 1.25em;
+  }
+  .hero-head{
+    font-size: 1.5em;
+  }
+  .hero-sub{
+    font-size: 1em;
+  }
+}
+ h3{
+   font-family: serif;
+   text-align: center;
+   font-weight: bolder;
+   color: black;
+   text-transform: uppercase;
+   font-size: 1em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+ }
+
+/* links*/
+a:link{
+  color: red;
+}
+
+a:visited{
+  color: purple;
+
+a:hover{
+  color: orange;
+}
+
 }

@@ -178,8 +178,13 @@ a:link{
 a:visited{
   color: purple;
 
-a:hover{
-  color: orange;
 }
 
+a:hover{
+  color:blue;
+}
+
+.graph{
+  padding-top: 3em;
+  padding-bottom: 3em;
 }

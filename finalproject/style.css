@@ -11,3 +11,57 @@
   text-transform: uppercase;
   font-size: 3em;
 }
+
+p{
+  font-family: georgia, serif;
+  line-height: 180%;
+}
+
+.red{
+  color: #aa0505;
+}
+
+.hero-container{
+  position:relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top:68%;
+  width:100%;
+  background-color: black;
+  opacity: .8;
+}
+
+.hero-head{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  color: white;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.hero-sub{
+  font-family: serif;
+  font-size: 3em;
+}
+
+.byline{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.headline{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}

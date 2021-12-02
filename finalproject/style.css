@@ -103,3 +103,21 @@ h3{
   font-style: oblique;
   text-align: center;
 }
+
+.author{
+  font-size: 13px;
+}
+
+/* links*/
+a:link{
+  color: red;
+}
+
+a:visited{
+  color: purple;
+
+}
+
+a:hover{
+  color:blue;
+}

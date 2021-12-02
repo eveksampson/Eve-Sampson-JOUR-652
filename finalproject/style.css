@@ -65,3 +65,8 @@ p{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
+hr{
+  color: #aa0505;
+  opacity: 100%;
+}

@@ -30,6 +30,16 @@ p{
 
 .hero-image{
   width: 100%;
+  animation: movedown 3s linear 1;
+}
+
+@keyframes movedown {
+  0%{
+    transform: translateY(-100px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 .overlay{
@@ -120,4 +130,16 @@ a:visited{
 
 a:hover{
   color:blue;
+}
+
+article{
+  display: block;
+  width: 70%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: #aa0505;
 }
